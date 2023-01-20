@@ -1,4 +1,4 @@
-module github.com/razonyang/hugo-theme-bootstrap-skeleton
+module github.com/ChangeMe2FediMod/FediMod.com
 
 go 1.18
 
