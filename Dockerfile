@@ -1,9 +1,6 @@
-###############
-# Build Stage #
-###############
-FROM klakegg/hugo:ext-ubuntu as builder
+FROM klakegg/hugo:ext-ubuntu
 
-WORKDIR /src
+WORKDIR ./
 COPY . /src
 
 ENV HUGO_ENV=production
@@ -26,13 +23,3 @@ RUN npm install -g @fullhuman/postcss-purgecss rtlcss
 
 # Build site
 RUN hugo --minify --gc --enableGitInfo
-
-# Set the fallback 404 page if defaultContentLanguageInSubdir is enabled, please replace the `en` with your default language code.
-# RUN cp ./public/en/404.html ./public/404.html
-
-###############
-# Final Stage #
-###############
-FROM nginx
-COPY --from=builder /src/public /app
-COPY deploy/nginx/default.conf /etc/nginx/conf.d/default.conf
