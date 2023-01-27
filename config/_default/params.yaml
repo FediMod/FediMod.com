@@ -1,12 +1,12 @@
 mainSections:
-  - blog
+  - documentation
   - posts
   - news
 
 # titleSeparator: | # Title separator. Default to -.
 
-description: An extreme fast, responsive and feature-rich blog theme for Hugo
-keywords: Hugo, Bootstrap, Blog Theme
+description: Tooling for the Fediverse Administrator  
+keywords: FediMod, Fediverse, Mastodon
 # images:
 #   - site-feature-image.jpg
 
@@ -15,9 +15,9 @@ keywords: Hugo, Bootstrap, Blog Theme
 
 # logo: images/logo.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
-brand: HBS
+brand: FediMod
 
-palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
+palette: blue # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:
 #  - blue
@@ -105,7 +105,7 @@ codeBlock:
 post:
   # excerpt: description
   # excerptMaxLength: 120
-  # copyright: false # Whether to display copyright section on each post.
+  copyright: false # Whether to display copyright section on each post.
   # plainifyExcerpt: false # Format excerpt in HTML if false.
   featuredImage: true # Show the featured image above the content.
   numberifyHeadings: true # Count headings automatically.
@@ -202,9 +202,9 @@ search:
   # indexName: ""
   # debug: true
 
-reward:
-  alipay: images/reward/alipay.png
-  wechat: images/reward/wechat.png
+#reward:
+  #alipay: images/reward/alipay.png
+  #wechat: images/reward/wechat.png
   #paypal: images/reward/paypal.png
   #patreon: images/reward/patreon.png
   #liberapay: images/reward/liberapay.png
@@ -222,10 +222,10 @@ fontSize:
   # large: 1.1rem
   # extraLarge: 1.2rem
 
-pwa:
-  manifest:
+#pwa:
+ # manifest:
     # name:  # Default to site title.
-    short_name: HBS
+  #  short_name: HBS
     # display: fullscreen # Default to standalone.
     # description:  # Default to site description.
     # theme_color: 
@@ -261,7 +261,8 @@ topAppBar:
     mastodon: https://publicsquare.global/@elan
     rss: ""
 
-#docs:
+docs:
+  copyright: false
   # nav:
     # expand: true # Expand docs navigations.
 

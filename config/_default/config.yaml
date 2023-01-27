@@ -1,7 +1,7 @@
 baseURL: /
 title: FediMod
 theme: github.com/razonyang/hugo-theme-bootstrap
-copyright: 'Copyright © 2022-{year} Elan Hasson. All Rights Reserved.'
+copyright: 'Copyright © 2022-{year} The FediMod Authors. All Rights Reserved.'
 defaultContentLanguage: en
 # hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
 # defaultContentLanguageInSubdir: true
