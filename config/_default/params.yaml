@@ -168,11 +168,11 @@ utterances:
   #paginate: 5 # Default to 10.
   #moderation: false # Same as Staticman's moderation.
 
-#giscus:
-  # repo: ""
-  # repoId: ""
-  # category: ""
-  # categoryId: ""
+giscus:
+   repo: "FediMod/FediMod.com"
+   repoId: "R_kgDOIz0VrA"
+   category: "FediMod.com Website Discussion Board"
+   categoryId: "DIC_kwDOIz0VrM4CT1Db"
   # theme: "dark" # Default to auto.
   # mapping: "title" # Default to pathname.
   # inputPosition: "bottom" # Default to top.
@@ -255,9 +255,11 @@ repo:
 topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+    github: FediMod
+    patreon: ElanHasson
+    paypal: ElanHasson
+    mastodon: https://publicsquare.global/@elan
+    rss: ""
 
 #docs:
   # nav:
